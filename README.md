@@ -1,6 +1,4 @@
 # ace-c9-editor
-Its a replacement of the WordPress / ClassicPress Code Editor
-# ace-c9-editor
 
 ## Description
 The ace-c9-editor is a modern replacement for the traditional WordPress / ClassicPress Code Editor. It leverages the power of the Ace Editor, which is widely recognized for its performance and feature-rich capabilities in code editing. This plugin integrates seamlessly with WordPress or ClassicPress, providing an enhanced user experience for developers and content managers.
