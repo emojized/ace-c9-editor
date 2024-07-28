@@ -12,7 +12,7 @@ The ace-c9-editor is a modern replacement for the traditional WordPress / Classi
 - **Responsive Design:** Works smoothly on both desktop and mobile devices.
 
 ## Installation
-1. Download the plugin from the GitHub repository or WordPress Plugin directory.
+1. Download the plugin from the GitHub repository.
 2. Upload the plugin files to the `/wp-content/plugins/` directory, or install the plugin through the WordPress plugins screen directly.
 3. Activate the plugin through the 'Plugins' screen in WordPress.
 4. Access the editor via the Appearance > Editor menu in WordPress.
