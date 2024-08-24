@@ -3,7 +3,7 @@
  * Plugin Name:       ACE Cloud9 Code Editor
  * Plugin URI:        https://github.com/emojized/ace-c9-editor
  * Description:       Replacing the WP/CP Code Editor with the Cloud9 ACE
- * Version:           1.0
+ * Version:           1.1
  * Requires at least: 4.9.15
  * Requires PHP:      7.4
  * Requires CP:       2.2
@@ -74,7 +74,7 @@ function emojized_ace_inline_script_for_plugin_editor() {
                             var editor = ace.edit("ace-editor");
                             editor.setTheme("ace/theme/cobalt");
                             editor.session.setMode("ace/mode/php");
-                            editor.setValue(textarea.value); // Set initial content
+                            editor.setValue(textarea.value, -1); // Set initial content without selecting text
 
                             // Sync Ace editor content with the textarea
                             editor.getSession().on("change", function() {
@@ -88,5 +88,4 @@ function emojized_ace_inline_script_for_plugin_editor() {
 }
 // Hook into admin_enqueue_scripts
 add_action('admin_enqueue_scripts', 'emojized_ace_inline_script_for_plugin_editor');
-
 
